@@ -1,0 +1,28 @@
+#outerWrapper {
+	width: 1000px;
+	margin: 30px auto;
+	position: relative;
+	-webkit-perspective: 500px;
+    -moz-perspective: 500px;
+    -o-perspective: 500px;
+    perspective: 500px;
+}
+#logo {
+	position: absolute;
+	top: 37px;
+	left: 39px;
+    -webkit-transition: all 3s cubic-bezier(0.950, 0.050, 0.795, 0.035);
+    -moz-transition: all 3s cubic-bezier(0.950, 0.050, 0.795, 0.035);
+    -o-transition: all 3s cubic-bezier(0.950, 0.050, 0.795, 0.035);
+	transition: all 3s cubic-bezier(0.950, 0.050, 0.795, 0.035);
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+	transition-delay: 1s;
+}
+.animated {
+    -webkit-transform: rotateY(-720deg);    
+    -moz-transform: rotateY(-720deg);    
+    -o-transform: rotateY(-720deg);    
+	transform: rotateY(-720deg);	
+}

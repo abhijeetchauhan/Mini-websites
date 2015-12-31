@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<ol>
+  {% for x in range(1,n+1)%}
+    {% if x % 3 != 0 and x%5 != 0 %}
+      <li>{{x}}</li>
+    {% else %}
+      {% if x%3 == 0 and x%5 == 0%}
+        <li>{{'FizzBuzz'}}</li>
+      {% elif x%3 == 0%}
+        <li>{{'Fizz'}}</li>
+      {% else %}
+        <li>{{'Buzz'}}</li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ol>
+{% endblock %}
