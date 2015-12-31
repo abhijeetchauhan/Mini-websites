@@ -1,0 +1,146 @@
+
+body {
+  padding-top: 0px;
+  background-color: #50017B;
+}
+.em-text{
+	color:#1caa98;
+}
+/*----- for front page --------> */
+h1{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+.error{
+  color: red;
+}
+
+#color_text{
+	color : #50017B;
+}
+
+#color-back{
+	background: #50017B;
+}
+
+#con-text{
+	font-weight: bold;
+	font-size: 17px;
+	color: #fff ;
+}
+
+#con-text2{
+	font-weight: bold;
+	font-size: 60px;
+	color: #fff ;
+	text-align: center;
+}
+
+#margin{
+	margin-top: 15px ;
+}
+
+#margin2{
+	margin-top: 0px;
+}
+
+#margin-bot{
+	margin-top: 30px;
+	margin-bottom: 10px ;
+}
+
+#margin_txt{
+	margin-top: 10px ;
+	margin-bottom: 20px;
+  text-align: center;
+}
+
+#onclick_event{
+  
+}
+
+/*--------------------end---------------------*/
+/*------------------------------------------------------- Quiz page --------------------------------------------------------*/
+/*-----------------------Initial Text-------------*/
+#mydiv{
+  padding-top: 200px;
+  color:#fff;
+  line-height: 10px;
+}
+/*------------------------end----------------------*/
+#q1{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+.next{
+  float:right;
+}
+#q2{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+#q3{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+#q4{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+#q5{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+#q6{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+#q7{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+#q8{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+#q9{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+#q10{
+  color: #fff;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+  opacity: 0.0;
+}
+#q11{
+  opacity: 0.0;
+}
+
+.submit{
+  color: #fff;
+  background-color:  rgb(17, 208, 27);
+  border: none;
+  border-radius: 5%;
+  font-size: 30px;
+}
+
